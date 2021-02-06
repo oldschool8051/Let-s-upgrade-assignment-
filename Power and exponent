@@ -1,0 +1,8 @@
+#X to power Y :
+a=int(input("Enter the Base:"))
+b=int(input("Enter the exponent:"))
+x=1
+for i in range(1,b+1):
+    x=x*a;
+
+print("Power is:",x)
